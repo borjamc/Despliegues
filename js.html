@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var miVariable = 5;
+      var miVariable2 = 3;
+      var cadena = "Mi cadena";
+      var booleano = true;
+      var array = ["primer valor", 2, false];
+
+      //var resultado = miVariable+miVariable2;
+
+      //alert(miVariable+miVariable2);
+      var a = 3;
+      var b = 2;
+      a+=b;
+      //alert(a);
+
+      var i='h';
+      /*while (i<5){
+        alert('i: '+i);
+        i++;
+      }
+      */
+      /*do{
+        alert("hola");
+        i++;
+      }while (i<5)
+      */
+      /*switch (i) {
+        case 'a':
+          alert("Letra a");
+          break;
+        case 'b':
+          alert("Letra b");
+          break;
+        default:
+          alert("Otra");
+          break;
+      }
+      */
+
+      var seguir=true;
+
+      while (seguir) {
+
+    var num1 = parseInt(prompt("Introduce un numero"));
+    var operador = prompt("Introduce un operado");
+    var num2 = parseInt(prompt("Introduce otro numero"));
+
+      switch (operador) {
+        case '+':
+          alert(num1+num2);
+          break;
+        case '/':
+          alert(num1/num2);
+          break;
+        case '*':
+          alert(num1*num2);
+          break;
+          case '-':
+            alert(num1-num2);
+            break;
+          default:
+        alert("Operador incorrecto");
+        break;
+    }
+    seguir=confirm("¿Quieres seguir?");
+  }
+
+    </script>
+  </body>
+</html>
