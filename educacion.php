@@ -9,7 +9,7 @@ class Educacion extends db
   {
     parent::__construct();
   }
-
+//Bugs
   public function ActualizarEducacion($año_inicio,$año_final,$empresa,$texto, $id_educacion){
             $sql="UPDATE estudios SET año_inicio='".$año_inicio."', año_finalizacion='".$año_final."', empresa='".$empresa."', texto='".$texto."' WHERE id_estudios=".$id_educacion;
             $actualizarreserva=$this->realizarConsulta($sql);
