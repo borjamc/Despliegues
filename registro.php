@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Registro</title>
+    <title>f</title>
   </head>
   <body>
     <form class="" action="registro.php" method="post">
