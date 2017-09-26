@@ -13,7 +13,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Mi CV.</title>
+    <title>Mi CV.RE</title>
   </head>
   <body>
     <nav>
